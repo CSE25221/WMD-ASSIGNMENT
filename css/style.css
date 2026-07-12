@@ -1,0 +1,32 @@
+/* Color Palette definition */
+:root {
+    --botswana-blue: #87ceeb;
+    --earth-clay: #b05a3e;
+    --dark-bg: #1a1a1a;
+}
+
+/* Hero Section Settings */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+                url('../images/airport-lounge-hero.jpg') no-repeat center center/cover;
+    height: 70vh;
+}
+
+/* Custom Overrides for Page Uniformity */
+.bg-dark {
+    background-color: var(--dark-bg) !important;
+}
+
+.text-info {
+    color: var(--botswana-blue) !important;
+}
+
+.btn-info {
+    background-color: var(--earth-clay);
+    border-color: var(--earth-clay);
+}
+
+.btn-info:hover {
+    background-color: #8c432b;
+    border-color: #8c432b;
+}
