@@ -14,16 +14,16 @@
 
 /* Custom Overrides for Page Uniformity */
 .bg-dark {
-    background-color: var(--dark-bg) !important;
+    background-color: var(--dark-bg) ;
 }
 
 .text-info {
-    color: var(--botswana-blue) !important;
+    color: var(--blue) ;
 }
 
 .btn-info {
-    background-color: var(--earth-clay);
-    border-color: var(--earth-clay);
+    background-color: var(--clay);
+    border-color: var(--clay);
 }
 
 .btn-info:hover {
